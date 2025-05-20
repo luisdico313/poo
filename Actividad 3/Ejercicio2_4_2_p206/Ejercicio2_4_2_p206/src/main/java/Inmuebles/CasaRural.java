@@ -48,12 +48,12 @@ public class CasaRural extends Casa{
     * Método que muestra en pantalla los datos de una casa rural
     */
     void imprimir() {
-    super.imprimir(); // Invoca al método imprimir de la clase padre
-    System.out.println("Distancia la cabecera municipal = " +
-    númeroHabitaciones + " km.");
-    System.out.println("Altitud sobre el nivel del mar = " + altitud +
-    " metros.");
-    System.out.println();
+        super.imprimir(); // Invoca al método imprimir de la clase padre
+        System.out.println("Distancia la cabecera municipal = " +
+        númeroHabitaciones + " km.");
+        System.out.println("Altitud sobre el nivel del mar = " + altitud +
+        " metros.");
+        System.out.println();
     }
     
     
