@@ -8,7 +8,7 @@ package Inmuebles;
  *
  * @author Usuario
  */
-public class InmuebleVivienda {
+public class InmuebleVivienda extends Inmueble{
     /* Atributo que identifica el número de habitación de un inmueble
     para vivienda */
     protected int númeroHabitaciones;
