@@ -11,6 +11,7 @@ package Profesores;
 public class Ejercicio5_4_4_p231 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Profesor profesor1 = new ProfesorTitular();
+        profesor1.imprimir();
     }
 }
